@@ -16,16 +16,16 @@
 // console.log(number);
 
 //4. My First Async I/O
-var fs = require('fs');
-var file = process.argv[2];
+// var fs = require('fs');
+// var file = process.argv[2];
 
-fs.readFile(file, function(err, contents) {
-  if (err) {
-    return console.log(err);
-  }
-  var number = contents.toString().split('\n').length -1;
-  console.log(number);
-})
+// fs.readFile(file, function(err, contents) {
+//   if (err) {
+//     return console.log(err);
+//   }
+//   var number = contents.toString().split('\n').length -1;
+//   console.log(number);
+// })
 
 
 
